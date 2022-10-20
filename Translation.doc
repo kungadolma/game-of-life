@@ -1,0 +1,177 @@
+1. How to create a new integer called i
+Python:
+ i = 0
+Java: 
+ Integer i = 0;
+2. How to create a new String called s
+Python:
+ x = ""
+ Java: 
+ String x = "";
+
+3. How to create a new array of Strings called arrS (use Python’s list to compare)
+Python:
+ a = []
+
+Java:
+ integer [] animalList; 
+
+4. How to get the size of an array
+Python:
+ a.len()
+
+Java:
+ a.length(); 
+
+5. How to get the first item in an array
+Python:
+ firstItem = numList[0]
+
+Java:
+ Integer firstItem = arrS[0];
+
+6. How to get the last item in an array
+Python:
+LastItem = numList(len -1)
+
+Java:
+ Integer LastItem = arrS[arrS.length-1];
+
+7. How to get the item at index 3 in an array
+Python 
+ indexThird  = numList[3]
+
+Java 
+ Integer Item = arrS[3];
+
+8. How to create a new method that:
+Python
+ def animal (name, weight ):
+
+Java 
+ public String Animal (String name, String weight){
+
+}
+9. Has no parameters, and returns nothing
+Python
+ def animal ():
+
+Java
+ public void animal(){
+
+ }
+
+10. Has a String as a parameter, and returns nothing
+Python
+def iceCream (falvor ):
+
+Java
+public void iceCream (String falvor){
+}
+
+11. Has no parameters, and returns an integer
+Python 
+ def calculator():
+ return num:
+
+Java
+public Integer calculator (){
+ return num;
+}
+
+12. Has a String and an integer as a parameter, and returns an array of Strings
+Python
+def dog(name, age):
+ x = []:
+ return arrayOfstring
+
+ Java:
+    Public String [] dog(String name, Integer age){
+  return string;
+}
+
+13. How to create a for loop that starts at 0 and loops 7 times
+Python:
+    for i in range(7):
+
+Java 
+    for (i = 0; i < 7; i++){
+    }
+14. Bonus: how to create a for loop that loops through all items in a list/array
+Python
+for s in arrS:
+Java: 
+for (int i  = 0; i < arrS.length; i++) {}
+for (String s in arrS) {}
+
+15.Do you need to indent?
+    In java its optional but in Python, it is used in methods, loops, if blocks
+16. Do you need {}? Where?
+    used in java anywhere you could use
+17. Do you need ;? Where?
+    used in java at the end of every code that doesn't have { or }. 
+
+18. How do you call a method on an object? Other things you want to remember
+Python
+    main()
+
+Java
+    ourZoo.toString()
+19. How to create a new boolean called boolean
+ python:
+  b = true
+
+  Java:
+  boolean b = true;
+
+20. How to write a while loop
+  python:
+  while condition:
+  statment
+
+  java:
+  while (condition){
+    statment
+  }
+
+21. how to print out a String 
+  Python
+  print("hello")
+
+  java
+  System.out.println(String "hello");
+
+  -How to print out more than one String on the same line
+  python
+  print("hi" + "Cs" )
+
+  java
+  String a = "hi"
+  String b = "moho"
+  System.out.println((a + b);
+
+
+22. How to write a main method
+ python
+  def main():
+
+  java
+  public static void main(String[] args){}
+
+
+22. how to generate a random number:
+  1. pick between 0 and 1
+   python 
+  random.randint(0,1):
+
+  Java
+  Random random = new Random(0,1);
+   2.  pick between 0 and 10
+   python 
+   random.randint(0,10)
+
+   java
+   Random random = new Random(0,10);
+   
+
+
